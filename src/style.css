@@ -1,0 +1,28 @@
+.drag-and-drop-container {
+  display: flex;
+  width: 100%;
+}
+
+.drop-area {
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 8px;
+  flex-grow: 1;
+}
+
+.drop-area-over {
+  background-color: #f3f3f3;
+}
+
+.draggable-item {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.dragging {
+  opacity: 0.5;
+}
